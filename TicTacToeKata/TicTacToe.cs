@@ -4,7 +4,7 @@
     {
         public static char PlaceToken(char c)
         {
-            throw new System.NotImplementedException();
+            return 'x';
         }
     }
 }
