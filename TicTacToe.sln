@@ -1,10 +1,22 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicTacToeKata.Test", "TicTacToeKata.Test\TicTacToeKata.Test.csproj", "{20005AD9-935D-47BF-BF7C-205A9D33EDBF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicTacToeKata", "TicTacToeKata\TicTacToeKata.csproj", "{7B265A15-68A9-4F45-96B1-F46C27E6B5BA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{20005AD9-935D-47BF-BF7C-205A9D33EDBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20005AD9-935D-47BF-BF7C-205A9D33EDBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20005AD9-935D-47BF-BF7C-205A9D33EDBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20005AD9-935D-47BF-BF7C-205A9D33EDBF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B265A15-68A9-4F45-96B1-F46C27E6B5BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B265A15-68A9-4F45-96B1-F46C27E6B5BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B265A15-68A9-4F45-96B1-F46C27E6B5BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B265A15-68A9-4F45-96B1-F46C27E6B5BA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
