@@ -1671,14 +1671,14 @@
           "build/netcoreapp2.1/xunit.runner.visualstudio.props": {}
         }
       },
-      "TicTacToe/1.0.0": {
+      "TicTacToeKata/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "compile": {
-          "bin/placeholder/TicTacToe.dll": {}
+          "bin/placeholder/TicTacToeKata.dll": {}
         },
         "runtime": {
-          "bin/placeholder/TicTacToe.dll": {}
+          "bin/placeholder/TicTacToeKata.dll": {}
         }
       }
     }
@@ -5855,16 +5855,16 @@
         "xunit.runner.visualstudio.nuspec"
       ]
     },
-    "TicTacToe/1.0.0": {
+    "TicTacToeKata/1.0.0": {
       "type": "project",
-      "path": "../TicTacToe/TicTacToe.csproj",
-      "msbuildProject": "../TicTacToe/TicTacToe.csproj"
+      "path": "../TicTacToeKata/TicTacToeKata.csproj",
+      "msbuildProject": "../TicTacToeKata/TicTacToeKata.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
       "Microsoft.NET.Test.Sdk >= 16.9.4",
-      "TicTacToe >= 1.0.0",
+      "TicTacToeKata >= 1.0.0",
       "coverlet.collector >= 3.0.2",
       "xunit >= 2.4.1",
       "xunit.runner.visualstudio >= 2.4.3"
@@ -5901,8 +5901,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "D:\\Users\\vkovaleva\\RiderProjects\\TicTacToe\\TicTacToe\\TicTacToe.csproj": {
-              "projectPath": "D:\\Users\\vkovaleva\\RiderProjects\\TicTacToe\\TicTacToe\\TicTacToe.csproj"
+            "D:\\Users\\vkovaleva\\RiderProjects\\TicTacToe\\TicTacToeKata\\TicTacToeKata.csproj": {
+              "projectPath": "D:\\Users\\vkovaleva\\RiderProjects\\TicTacToe\\TicTacToeKata\\TicTacToeKata.csproj"
             }
           }
         }

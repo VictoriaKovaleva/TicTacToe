@@ -31,8 +31,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\Users\\vkovaleva\\RiderProjects\\TicTacToe\\TicTacToe\\TicTacToe.csproj": {
-                "projectPath": "D:\\Users\\vkovaleva\\RiderProjects\\TicTacToe\\TicTacToe\\TicTacToe.csproj"
+              "D:\\Users\\vkovaleva\\RiderProjects\\TicTacToe\\TicTacToeKata\\TicTacToeKata.csproj": {
+                "projectPath": "D:\\Users\\vkovaleva\\RiderProjects\\TicTacToe\\TicTacToeKata\\TicTacToeKata.csproj"
               }
             }
           }
@@ -87,14 +87,14 @@
         }
       }
     },
-    "D:\\Users\\vkovaleva\\RiderProjects\\TicTacToe\\TicTacToe\\TicTacToe.csproj": {
+    "D:\\Users\\vkovaleva\\RiderProjects\\TicTacToe\\TicTacToeKata\\TicTacToeKata.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Users\\vkovaleva\\RiderProjects\\TicTacToe\\TicTacToe\\TicTacToe.csproj",
-        "projectName": "TicTacToe",
-        "projectPath": "D:\\Users\\vkovaleva\\RiderProjects\\TicTacToe\\TicTacToe\\TicTacToe.csproj",
+        "projectUniqueName": "D:\\Users\\vkovaleva\\RiderProjects\\TicTacToe\\TicTacToeKata\\TicTacToeKata.csproj",
+        "projectName": "TicTacToeKata",
+        "projectPath": "D:\\Users\\vkovaleva\\RiderProjects\\TicTacToe\\TicTacToeKata\\TicTacToeKata.csproj",
         "packagesPath": "D:\\Users\\vkovaleva\\.nuget\\packages\\",
-        "outputPath": "D:\\Users\\vkovaleva\\RiderProjects\\TicTacToe\\TicTacToe\\obj\\",
+        "outputPath": "D:\\Users\\vkovaleva\\RiderProjects\\TicTacToe\\TicTacToeKata\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

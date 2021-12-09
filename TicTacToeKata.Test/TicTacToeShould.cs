@@ -8,7 +8,7 @@ namespace TicTacToeKata.Test
         [Fact]
         public void AllowPlayerToPlaceX()
         {
-            char actual = TicTacToe.PlaceToken('x');
+            char actual = TicTacToe.TicTacToe.PlaceToken('x');
             
             Assert.Equal('x', actual);
         }
