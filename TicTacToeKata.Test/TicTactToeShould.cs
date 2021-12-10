@@ -14,5 +14,15 @@ namespace TicTacToeKata.Test
             Assert.Equal('x', board.GetTokenAtPosition(0,0));
         }
         
+        [Fact]
+        public void AllowPlayerToPlaceO()
+        {
+            Board board = new Board();
+
+            board.PlaceToken('o', 0, 0);
+                
+            Assert.Equal('o', board.GetTokenAtPosition(0,0));
+        }
+       
     }
 }
