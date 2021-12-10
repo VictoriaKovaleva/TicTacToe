@@ -1,4 +1,3 @@
-using System;
 using Xunit;
 
 namespace TicTacToeKata.Test
@@ -8,8 +7,12 @@ namespace TicTacToeKata.Test
         [Fact]
         public void AllowPlayerToPlaceX()
         {
-            char actual = TicTacToe.PlaceToken('x');
-            Assert.Equal('x', actual);
+            Board board = new Board();
+
+            board.PlaceToken('x', 0, 0);
+                
+            Assert.Equal('x', board.GetTokenAtPosition(0,0));
         }
+        
     }
 }
