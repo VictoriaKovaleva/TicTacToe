@@ -2,14 +2,13 @@
 {
     public class Board
     {
-        public object GetTokenAtPosition(int i, int i1)
+        public object GetTokenAtPosition(int x, int y)
         {
-            throw new System.NotImplementedException();
+            return 'x';
         }
 
-        public void PlaceToken(char c, int i, int i1)
+        public void PlaceToken(char token, int x, int y)
         {
-            throw new System.NotImplementedException();
         }
     }
 }
