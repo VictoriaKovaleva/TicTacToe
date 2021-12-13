@@ -20,6 +20,7 @@ namespace TicTacToeKata.Test
         [Theory]
         [InlineData('d')]
         [InlineData('m')]
+        [InlineData('g')]
         public void NotAllowPlayerToPlaceOtherTokenThanXOrO(char token)
         {
             Board board = new Board();
