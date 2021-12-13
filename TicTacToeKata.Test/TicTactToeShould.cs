@@ -4,25 +4,17 @@ namespace TicTacToeKata.Test
 {
     public class TicTactToeShould
     {
-        [Fact]
-        public void AllowPlayerToPlaceX()
+        [Theory]
+        [InlineData('o')]
+        [InlineData('x')]
+        public void AllowPlayerToPlaceAToken(char token)
         {
             Board board = new Board();
 
-            board.PlaceToken('x', 0, 0);
+            board.PlaceToken(token, 0, 0);
                 
-            Assert.Equal('x', board.GetTokenAtPosition(0,0));
-        }
-        
-        [Fact]
-        public void AllowPlayerToPlaceO()
-        {
-            Board board = new Board();
+            Assert.Equal(token, board.GetTokenAtPosition(0,0));
 
-            board.PlaceToken('o', 0, 0);
-                
-            Assert.Equal('o', board.GetTokenAtPosition(0,0));
         }
-       
     }
 }
