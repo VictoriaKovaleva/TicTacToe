@@ -26,5 +26,16 @@ namespace TicTacToeKata.Test
 
             Assert.Throws<ArgumentException>(action);
         }
+        
+        [Fact]
+        public void NotAllowPlayerToPlaceTokenM()
+        {
+            Board board = new Board();
+
+            Action action = () => board.PlaceToken('m', 0, 0);
+
+            Assert.Throws<ArgumentException>(action);
+        }
+
     }
 }
