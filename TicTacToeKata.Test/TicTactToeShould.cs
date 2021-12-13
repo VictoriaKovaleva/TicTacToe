@@ -1,3 +1,4 @@
+using System;
 using Xunit;
 
 namespace TicTacToeKata.Test
@@ -14,7 +15,16 @@ namespace TicTacToeKata.Test
             board.PlaceToken(token, 0, 0);
                 
             Assert.Equal(token, board.GetTokenAtPosition(0,0));
+        }
 
+        [Fact]
+        public void NotAllowPlayerToPlaceTokenD()
+        {
+            Board board = new Board();
+
+            Action action = () => board.PlaceToken('d', 0, 0);
+            
+            Assert.Throws<ArgumentException>(action);
         }
     }
 }
