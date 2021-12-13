@@ -11,11 +11,7 @@
 
         public void PlaceToken(char token, int x, int y)
         {
-            if (token == 'o')
-                _playingToken = 'o';
-
-            if (token == 'x')
-                _playingToken = 'x';
+            _playingToken = token;
         }
     }
 }
