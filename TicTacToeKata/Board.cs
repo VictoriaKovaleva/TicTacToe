@@ -1,4 +1,6 @@
-﻿namespace TicTacToeKata
+﻿using System;
+
+namespace TicTacToeKata
 {
     public class Board
     {
@@ -11,6 +13,9 @@
 
         public void PlaceToken(char token, int x, int y)
         {
+            if (token == 'd')
+                throw new ArgumentException(nameof(token));
+            
             _playingToken = token;
         }
     }

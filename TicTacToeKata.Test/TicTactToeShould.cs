@@ -23,7 +23,7 @@ namespace TicTacToeKata.Test
             Board board = new Board();
 
             Action action = () => board.PlaceToken('d', 0, 0);
-            
+
             Assert.Throws<ArgumentException>(action);
         }
     }
