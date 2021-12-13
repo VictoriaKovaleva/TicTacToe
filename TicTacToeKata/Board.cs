@@ -13,7 +13,7 @@ namespace TicTacToeKata
 
         public void PlaceToken(char token, int x, int y)
         {
-            if (token == 'd' || token == 'm' || token == 'g')
+            if (token != 'x' && token != 'o')
                 throw new ArgumentException(nameof(token));
             
             _playingToken = token;
