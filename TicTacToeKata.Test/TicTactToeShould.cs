@@ -55,6 +55,18 @@ namespace TicTacToeKata.Test
             Assert.Throws<ArgumentException>(action);
         }
        
+        [Fact]
+        public void DoNotAllowPlayerToPlaceOTokenOn0And2WhenThereIsXTokenPlaced()
+        {
+            Board board = new();
+            Coordinates coordinates = new Coordinates(0, 2);
+            Token token = new Token('o');
+
+            Action action = () => board.PlaceToken(token, coordinates);
+            
+            Assert.Throws<ArgumentException>(action);
+        }
+
 
     }
 }
