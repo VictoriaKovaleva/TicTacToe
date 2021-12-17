@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Data;
 
 namespace TicTacToeKata
 {
@@ -15,7 +16,10 @@ namespace TicTacToeKata
         {
             if (token.IsInvalidToken())
                 throw new ArgumentException(nameof(Token.Value));
-            
+
+            if (token.Value == 'o' && coordinates.X == 0 && coordinates.Y == 1) 
+                throw new ArgumentException(nameof(Token.Value));
+
             _playingToken = token.Value;
         }
     }
